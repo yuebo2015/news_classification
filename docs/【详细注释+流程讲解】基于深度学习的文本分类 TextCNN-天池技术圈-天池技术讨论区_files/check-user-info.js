@@ -1,0 +1,1 @@
+$((function(){$.get("/home/getUserInfo",(function(e){var t=e.data;t&&t.redirect&&(window.location.href=t.redirect)}))}));
